@@ -9,16 +9,16 @@ const FeaturesCard = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features-box">
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a><img src="/images/features/features-1.png" alt="image" /></a>
                                 </Link>
                                 
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Strategic Planning</a>
+                                    <Link href="/">
+                                        <a>Web e Mobile</a>
                                     </Link>
                                 </h3>
-                                <p>Best Strategic planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
+                                <p>Nossa suite de aplicações conta com diferentes modulos para coleta, processamento, e visualização de dados.</p>
                             </div>
                         </div>
 
@@ -29,10 +29,10 @@ const FeaturesCard = () => {
                                 </Link>
                                 <h3>
                                     <Link href="/services-details">
-                                        <a>Research & Development</a>
+                                        <a>Inteligência artificial de ponta a ponta </a>
                                     </Link>
                                 </h3>
-                                <p>Ozen is totally digital technology based creative agency ipsum dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor.</p>
+                                <p>Nossos produtos utilizam Inteligência Artiticial para realizar diversas tarefas, simples ou complexas, nós criamos soluções que trazem beneficios ao Agro.</p>
                             </div>
                         </div>
 
@@ -43,10 +43,10 @@ const FeaturesCard = () => {
                                 </Link>
                                 <h3>
                                     <Link href="/services-details">
-                                        <a>Design & Implimentation</a>
+                                        <a>IoT</a>
                                     </Link>
                                 </h3>
-                                <p>Business change dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
+                                <p>Nossos dispositivos de IoT são totalmente modulares, permitindo a conexão de diferentes sensores, gerando dados que trazem comodidade e fazem a diferença para o produtor.</p>
                             </div>
                         </div>
                     </div>
