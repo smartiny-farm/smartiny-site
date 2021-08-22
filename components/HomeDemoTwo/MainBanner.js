@@ -13,23 +13,23 @@ const MainBanner = () => {
                                 <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
                                     <div className="tag">
                                         <img src="/images/main-banner/banner-two/tag-icon.png" alt="image" />
-                                        # Ozen Best Startup Company
+                                        #smartiny agro inteligente.
                                     </div>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={100} animateOnce={true}>
-                                    <h1 className="wow fadeInLeft">Ozen, Best IT Startup Consulting Company</h1>
+                                    <h1 className="wow fadeInLeft">smartiny, aplicações modulares para o agro.</h1>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={150} animateOnce={true}>
-                                    <p>Ozen is a digital marketing agency sit amet consectetur adipiscing elit. Odio at ut tincidunt porttitor molestie aliquet quam cursus. Rhoncus donec libero et volutpat erat posuere sagittis cursus posuere.</p>
+                                    <p>smartiny, é uma Agritech com foco em soluções modulares, que atendem o pequeno, médio e grande produtor, nosso foco é levar tecnologia de ponta para todos! </p>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInRight" delay={150} animateOnce={true}>
                                     <div className="banner-btn">
-                                        <Link href="/about-us">
+                                        <Link href="/">
                                             <a className="default-btn">
-                                                Read More 
+                                                Saiba mais
                                                 <i className="ri-arrow-right-line"></i>
                                                 <span></span>
                                             </a>
