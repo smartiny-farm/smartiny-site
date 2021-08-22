@@ -1,7 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
 import PageBanner from '../components/Common/PageBanner';
-import Link from 'next/link';
 import Footer from '../components/_App/Footer';
 
 import {
@@ -11,11 +9,12 @@ import {
     AccordionItemPanel,
     AccordionItemButton
 } from 'react-accessible-accordion';
+import NavbarTwo from "../components/_App/NavbarTwo";
 
 const FAQs = () => {
     return (
         <>
-			<NavbarFour />
+			<NavbarTwo />
 			
 			<PageBanner 
                 pageTitle="FAQs" 
@@ -31,88 +30,88 @@ const FAQs = () => {
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Why Are Consultants Important?
+                                        Oque nós fazemos?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p>A Smartiny é uma agritech com foco no desenvolvimento de produtos e dispositivos para coleta, processamento, e visualização de dados. Nossos dispositivos são projetados levando em consideração o custo beneficio.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
 
                             <AccordionItem uuid="b">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        What is The Purpose of a Consultant?
+                                        Onde posso comprar os dispositivos?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p>Após realizar o login em nossa plataforma, você irá ver um icone de loja no menu lateral, na nossa loja online você pode comprar desde a aplicação pronta até sensores e peças individuais.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
 
                             <AccordionItem uuid="c">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        What Attracts You To The Role of a Consultant?
+                                        Os nossos produtos possuem garantia?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p>Sim, todos os nossos dispositivos e hardwares possuem garantia de 1 ano contra defeito de fábrica, e suporte gratuito contra defeito causado por interperies.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
 
                             <AccordionItem uuid="d">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        What Are The Advantages of Being a Consultant?
+                                        Quais são os prazos de entrega?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p>Após a identificação do pagamento os dispositivos serão postados em até 7 dias uteis se precisar de montagem, ou 1 dia util se for um sensor ou peça individual.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
 
                             <AccordionItem uuid="e">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Is Consulting a Good Career?
+                                        Preciso pagar para usar a plataforma localmente?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p> Nossa plataforma OnDemand é gratuita e você recebe acesso a ela após a compra de qualquer dispositivo da Smartiny.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
 
                             <AccordionItem uuid="f">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        How is Working in Consulting?
+                                        Por que comprar da Smartiny?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more. IT consulting services are important because they play a vital role in businesses by covering the management, implementation, deployment, and maintenance of an IT infrastructure. IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                    <p>Nosso foco é no desenvolvimento de produtos de baixo custo, e com qualidade, queremos disponibilizar tecnologias de ponta para qualquer produtor rural, com isso todos ganham.</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                         </Accordion>
                     </div>
 
                     <div className="ticket-box">
-                        <h3>Have Any Question in Mind Please Call or Mail Us</h3>
+                        <h3>Possui alguma duvida que não foi respondida acima? entre em contato com nossa equipe pelos canais abaixo.</h3>
 
                         <div className="box-one">
                             <i className="ri-customer-service-line"></i>
-                            <a href="tel:3128959800">(312) 895-9800</a>
+                            <a href="tel:3128959800">(66)996516832</a>
                         </div>
 
                         <div className="box-two">
                             <i className="ri-earth-line"></i>
-                            <a href="mailto:hello.me@ozen.com">hello.me@ozen.com</a>
+                            <a href="mailto:hello.me@ozen.com">contato@smartiny.com</a>
                         </div>
                     </div>
                 </div>
