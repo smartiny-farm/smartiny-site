@@ -7,8 +7,8 @@ const Services = () => {
             <div className="services-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Services We Offer</h2>
-                        <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit auctor nam elit nulla eget sodales dui pulvina</p>
+                        <h2>Nossos Serviços</h2>
+                        <p>Os melhores serviços, desenvolvidos para o agro, pensando diretamente nos produtores brasileiros</p>
                     </div>
 
                     <div className="row justify-content-center">
@@ -19,14 +19,14 @@ const Services = () => {
                                 </div>
                                 <h3>
                                     <Link href="/services-details">
-                                        <a>Brand Identity Design</a>
+                                        <a>IoT</a>
                                     </Link>
                                 </h3>
-                                <p>Branding just like your personal identity makes you uniquely you your brand identity is the special sauce of your business that sets you apart from every other Tom Dick and Harry Inc.</p>
+                                <p>Internet das Coisas esta em nosso DNA, nossos embarcados modularizados são desenvolvidos para coletar e enviar dados de modo seguro, independente e sem descanso.</p>
 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
+                                        Saiba Mais <i className="ri-arrow-right-line"></i>
                                     </a>
                                 </Link>
                             </div>
@@ -39,14 +39,14 @@ const Services = () => {
                                 </div>
                                 <h3>
                                     <Link href="/services-details">
-                                        <a>Digital Marketing</a>
+                                        <a>Visualização de dados</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Nosso serviço de visualização de dados foi projetado pensando na simplicidade e objetividade do agro, acompanhe e tome decisões certeiras.</p>
                                 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
+                                        Saiba Mais <i className="ri-arrow-right-line"></i>
                                     </a>
                                 </Link>
                             </div>
@@ -58,15 +58,15 @@ const Services = () => {
                                     <i className="ri-lightbulb-line"></i>
                                 </div>
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Design and Development</a>
+                                    <Link href="/">
+                                        <a>AgroWiki</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Nosso serviço de informações denominado AgroWiki ajuda produtores a encontrarem respostas para os diversos problemas do agro nos dias de hoje.</p>
 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
+                                        Saiba Mais <i className="ri-arrow-right-line"></i>
                                     </a>
                                 </Link>
                             </div>
@@ -78,15 +78,15 @@ const Services = () => {
                                     <i className="ri-customer-service-2-line"></i>
                                 </div>
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>IT Consulting Service</a>
+                                    <Link href="/">
+                                        <a>Central de Atendimento</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Nossa central de atendimento esta a disposição para tirar duvidas, ouvir feedbacks, recolher ideias, e ouvir os nossos usuários.</p>
                                 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
+                                        Saiba Mais <i className="ri-arrow-right-line"></i>
                                     </a>
                                 </Link>
                             </div>
@@ -98,15 +98,15 @@ const Services = () => {
                                     <i className="ri-cloud-line"></i>
                                 </div>
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Cloud Computing</a>
+                                    <Link href="/">
+                                        <a>Serviços em Nuvem e Local</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Nossos serviços rodam tanto em nuvem quanto em sua infra local. Se sua propriedade não tiver internet não há problema!</p>
                                 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
+                                        Saiba Mais <i className="ri-arrow-right-line"></i>
                                     </a>
                                 </Link>
                             </div>
@@ -118,13 +118,13 @@ const Services = () => {
                                     <i className="ri-layout-row-line"></i>
                                 </div>
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Domain and Hosting</a>
+                                    <Link href="/">
+                                        <a>Aplicações de Baixo Custo</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Nosso foco é levar a tecnologia até o campo, por isso investimos no desenvolvimento de aplicações que rodam em micro computadores e embarcados de baixo custo.</p>
                                 
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a className="services-btn">
                                         Read More <i className="ri-arrow-right-line"></i>
                                     </a>

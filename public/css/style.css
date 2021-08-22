@@ -36,9 +36,9 @@ This files table contents are outlined below>>>>>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --main-font-family: 'Inter', sans-serif;
-  --main-color: #0064FB;
-  --optional-color: #FF414B;
-  --main-gradient-color: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
+  --main-color: #00c2cb;
+  --optional-color: #7ed957;
+  --main-gradient-color: linear-gradient(90deg, rgba(35, 200, 243, 0.96) 0%, #7ed957 100%);
   --white-color: #ffffff;
   --black-color: #2E2F46;
   --paragraph-color: #494A60;
