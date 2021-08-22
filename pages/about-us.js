@@ -2,23 +2,24 @@ import React from 'react';
 import NavbarFour from '../components/_App/NavbarFour';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
-import FeaturesCard from '../components/HomeDemoOne/FeaturesCard';
+import FeaturesCard from '../components/HomeDemoTwo/FeaturesCard';
 import FunFacts from '../components/Common/FunFacts';
 import TechSupport from '../components/Common/TechSupport';
 import Team from '../components/Common/Team';
 import OurRespectiveClients from '../components/Common/OurRespectiveClients';
 import Faqs from '../components/Common/Faqs';
+import NavbarTwo from "../components/_App/NavbarTwo";
 
 const AboutUs = () => {
     return (
         <>
-			<NavbarFour />
+			<NavbarTwo />
 			
 			<PageBanner 
-                pageTitle="About Us" 
+                pageTitle="Sobre"
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="About Us"
+                activePageText="Sobre"
             /> 
 
             <FeaturesCard />
@@ -39,23 +40,23 @@ const AboutUs = () => {
                                         <div className="tag">
                                             <img src="/images/about/tag-icon.png" alt="image" />
                                         </div>
-                                        <h3>Over 12 Year Professional Experiences</h3>
-                                        <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit  auctor. nam elit nulla eget sodales dui pulvinar. Best Strategic planning dolor sit sectetur morethe Scelerisque amet odio velit eu auctor.</p>
+                                        <h3>Da lavoura a horta, do pequeno ao grande, trabalhamos para desenvolver soluções que possam ser usadas por todos.</h3>
+                                        <p>Nossa equipe é apaixonada pelo Agro, queremos melhorar a vida do pequeno produtor, e aumentar os lucros do grande produtor, nossos serviços e tecnologias são focados no que realmente importa para o dia-a-dia do Agro.</p>
                                     </div>
 
                                     <div className="about-inner-content">
                                         <img src="/images/about/img1.png" alt="image" />
-                                        <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. risque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best eone Strategic planning dolor.</p>
+                                        <p>Visualização de dados pensada para o agricultor, chega de dashboards complicados!.</p>
                                     </div>
 
                                     <div className="about-inner-content">
                                         <img src="/images/about/img2.png" alt="image" />
-                                        <p>Ozen digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
+                                        <p>Informações centralizadas para melhorar o desempenho na lavoura, horta, ou plantio.</p>
                                     </div>
 
                                     <div className="about-inner-content">
                                         <img src="/images/about/img3.png" alt="image" />
-                                        <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. risque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best eone Strategic planning dolor.</p>
+                                        <p>Recomendações e insights gerados em tempo real.</p>
                                     </div>
                                 </div>
                             </div>
@@ -335,18 +336,6 @@ const AboutUs = () => {
                     }
                 `}</style>
             </>
-
-            <div className="ptb-100">
-                <FunFacts />
-            </div>
-
-            <TechSupport />
-
-            <Team />
-
-            <OurRespectiveClients />
-
-            <Faqs />
 
 			<Footer />
 		</>

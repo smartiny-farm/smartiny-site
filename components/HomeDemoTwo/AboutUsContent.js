@@ -19,29 +19,29 @@ const AboutUsContent = () => {
                                     <div className="tag">
                                         <img src="/images/about/tag-icon.png" alt="image" />
                                     </div>
-                                    <h3>Over 12 Year Professional Experiences</h3>
-                                    <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit  auctor. nam elit nulla eget sodales dui pulvinar. Best Strategic planning dolor sit sectetur morethe Scelerisque amet odio velit eu auctor.</p>
+                                    <h3>Da lavoura a horta, do pequeno ao grande, trabalhamos para desenvolver soluções que possam ser usadas por todos.</h3>
+                                    <p>Nossa equipe é apaixonada pelo Agro, queremos melhorar a vida do pequeno produtor, e aumentar os lucros do grande produtor, nossos serviços e tecnologias são focados no que realmente importa para o dia-a-dia do Agro.</p>
                                 </div>
 
                                 <div className="about-inner-content">
                                     <img src="/images/about/img1.png" alt="image" />
-                                    <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. risque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best eone Strategic planning dolor.</p>
+                                    <p>Visualização de dados pensada para o agricultor, chega de dashboards complicados!.</p>
                                 </div>
 
                                 <div className="about-inner-content">
                                     <img src="/images/about/img2.png" alt="image" />
-                                    <p>Ozen digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
+                                    <p>Informações centralizadas para melhorar o desempenho na lavoura, horta, ou plantio.</p>
                                 </div>
 
                                 <div className="about-inner-content">
                                     <img src="/images/about/img3.png" alt="image" />
-                                    <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. risque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best eone Strategic planning dolor.</p>
+                                    <p>Recomendações e insights gerados em tempo real.</p>
                                 </div>
 
                                 <div className="about-btn">
-                                    <Link href="/about-us">
+                                    <Link href="/">
                                         <a className="default-btn">
-                                            Read More 
+                                            Saiba Mais
                                             <i className="ri-arrow-right-line"></i>
                                             <span></span>
                                         </a>
