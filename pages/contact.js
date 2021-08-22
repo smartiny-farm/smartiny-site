@@ -4,14 +4,15 @@ import PageBanner from '../components/Common/PageBanner';
 import ContactForm from '../components/Contact/ContactForm';
 import ContactInfo from '../components/Contact/ContactInfo';
 import Footer from '../components/_App/Footer';
+import NavbarTwo from "../components/_App/NavbarTwo";
 
 const ContactPage = () => {
     return (
         <>
-			<NavbarFour />
+			<NavbarTwo />
 			
 			<PageBanner 
-                pageTitle="Contact" 
+                pageTitle="Contato"
                 homePageUrl="/" 
                 homePageText="Home" 
                 activePageText="Contact"

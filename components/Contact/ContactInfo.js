@@ -8,23 +8,23 @@ const ContactInfo = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12">
                             <div className="contact-address">
-                                <h3>Contact Address:</h3>
-                                <p>The IT industry offers a sea of options, from platforms, programming languages, methodologies, technologies, tools, and more.</p>
+                                <h3>Endereço de Contato:</h3>
+                                <p>Smartiny, levando tecnologia de ponta para o campo.</p>
 
                                 <ul className="address-info">
                                     <li>
                                         <i className="ri-customer-service-line"></i>
-                                        <a href="tel:3128959800">(312) 895-9800</a>
+                                        <a href="tel:3128959800">(66)996516832</a>
                                     </li>
 
                                     <li>
                                         <i className="ri-global-line"></i>
-                                        <a href="mailto:hello.me@ozen.com">hello.me@ozen.com</a>
+                                        <a href="mailto:hello.me@ozen.com">contato@smartiny.dev</a>
                                     </li>
 
                                     <li>
                                         <i className="ri-map-pin-line"></i>
-                                        121 St, Melbourne VIC 3000, Australia
+                                        Rua dos coqueiros 1000, Fundos da Adestec, Sinop - MT
                                     </li>
                                 </ul>
 
