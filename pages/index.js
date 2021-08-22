@@ -1,50 +1,33 @@
 import React from 'react';
-import Navbar from '../components/_App/Navbar';
-import MainBanner from '../components/HomeDemoOne/MainBanner';
-import PartnerStyleOne from '../components/Common/PartnerStyleOne';
-import FeaturesCard from '../components/HomeDemoOne/FeaturesCard';
-import AboutUsContent from '../components/HomeDemoOne/AboutUsContent';
-import Services from '../components/HomeDemoOne/Services';
-import TechSupport from '../components/Common/TechSupport';
-import RecentCaseStudy from '../components/CaseStudy/RecentCaseStudy';
-import OurRespectiveClients from '../components/Common/OurRespectiveClients';
-import PricePlansOne from '../components/PricePlans/PricePlansOne';
-import PopularBlogPost from '../components/Common/PopularBlogPost';
-import CTA from '../components/Common/CTA';
+import NavbarTwo from '../components/_App/NavbarTwo';
+import MainBanner from '../components/HomeDemoTwo/MainBanner';
+import FeaturesCard from '../components/HomeDemoTwo/FeaturesCard';
+import AboutUsContent from '../components/HomeDemoTwo/AboutUsContent';
+import IntroVideo from '../components/Common/IntroVideo';
+import Services from '../components/HomeDemoTwo/Services';
+import PartnerStyleTwo from '../components/Common/PartnerStyleTwo';
 import Footer from '../components/_App/Footer';
 
-const IndexPage = () => {
+const IndexPageTwo = () => {
     return (
         <>
-            <Navbar />
+            <NavbarTwo />
 
             <MainBanner />
-
-            <PartnerStyleOne />
 
             <FeaturesCard />
 
             <AboutUsContent />
 
+            <IntroVideo />
+
             <Services />
 
-            <TechSupport />
+            <PartnerStyleTwo />
 
-            <RecentCaseStudy />
-
-            <OurRespectiveClients />
-
-            <PricePlansOne />
-
-            <PopularBlogPost />
-
-            <div className="pb-100">
-                <CTA />
-            </div>
- 
             <Footer />
         </>
     )
 }
 
-export default IndexPage;
+export default IndexPageTwo;

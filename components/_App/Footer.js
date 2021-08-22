@@ -18,22 +18,22 @@ const Footer = () => {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>Best solution for your it startup business consecteturadipiscing elit. Scelerisque amet odio velit  auctor. nam elit nulla.</p>
+                                <p>As melhores tecnologias para o Agro.</p>
 
                                 <ul className="widget-info">
                                     <li>
                                         <i className="ri-customer-service-line"></i>
-                                        <a href="tel:3128959800">(312) 895-9800</a>
+                                        <a href="tel:3128959800">(66)996516832</a>
                                     </li>
 
                                     <li>
                                         <i className="ri-global-line"></i>
-                                        <a href="mailto:hello.me@ozen.com">hello.me@ozen.com</a>
+                                        <a href="mailto:hello.me@ozen.com">contato@smartiny.dev</a>
                                     </li>
 
                                     <li>
                                         <i className="ri-map-pin-line"></i>
-                                        121 St, Melbourne VIC 3000, Australia
+                                        Rua dos coqueiros 1000, fundos Adestec Obra Padre Pio Sinop
                                     </li>
                                 </ul>
                             </div>
@@ -41,42 +41,27 @@ const Footer = () => {
 
                         <div className="col-lg-2 col-sm-6 col-md-3">
                             <div className="single-footer-widget">
-                                <h3>Quick Link</h3>
+                                <h3>Links Rápido</h3>
 
                                 <ul className="footer-links-list">
                                     <li>
                                         <Link href="/services">
-                                            <a>Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/case-study">
-                                            <a>Case Study</a>
+                                            <a>Serviços</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/gallery">
-                                            <a>Gallery</a>
+                                            <a>Galeria</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/contact">
-                                            <a>Contact</a>
+                                            <a>Contato</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/faq">
-                                            <a>Faq’s</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/privacy-policy">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/terms-of-service">
-                                            <a>Terms of Service</a>
+                                            <a>FAQ</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -85,103 +70,88 @@ const Footer = () => {
 
                         <div className="col-lg-2 col-sm-6 col-md-3">
                             <div className="single-footer-widget">
-                                <h3>About Us</h3>
+                                <h3>Sobre</h3>
 
                                 <ul className="footer-links-list">
-                                    <li>
-                                        <Link href="/about-us">
-                                            <a>About Us</a>
-                                        </Link>
-                                    </li>
+                                    {/*<li>*/}
+                                    {/*    <Link href="/about-us">*/}
+                                    {/*        <a>About Us</a>*/}
+                                    {/*    </Link>*/}
+                                    {/*</li>*/}
                                     <li>
                                         <Link href="/team-member">
-                                            <a>Team Member</a>
+                                            <a>Equipe</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/contact">
-                                            <a>Contact</a>
+                                            <a>Contato</a>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link href="/services">
-                                            <a>Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/faq">
-                                            <a>Faq’s</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/privacy-policy">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/terms-of-service">
-                                            <a>Terms of Service</a>
-                                        </Link>
-                                    </li>
+                                    {/*<li>*/}
+                                    {/*    <Link href="/services">*/}
+                                    {/*        <a>Services</a>*/}
+                                    {/*    </Link>*/}
+                                    {/*</li>*/}
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-sm-6 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>Services</h3>
+                        {/*<div className="col-lg-2 col-sm-6 col-md-6">*/}
+                        {/*    <div className="single-footer-widget">*/}
+                        {/*        <h3>Services</h3>*/}
 
-                                <ul className="footer-links-list">
-                                    <li>
-                                        <Link href="/services">
-                                            <a href="pricing.html">Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/services-details">
-                                            <a>Digital Marketing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/case-study">
-                                            <a>Case Study</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">
-                                            <a>Support</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/testimonials">
-                                            <a>Testimonials</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/services-details">
-                                            <a>Cloud Computing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/features">
-                                            <a>Features</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        {/*        <ul className="footer-links-list">*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/services">*/}
+                        {/*                    <a href="pricing.html">Services</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/services-details">*/}
+                        {/*                    <a>Digital Marketing</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/case-study">*/}
+                        {/*                    <a>Case Study</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/contact">*/}
+                        {/*                    <a>Support</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/testimonials">*/}
+                        {/*                    <a>Testimonials</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/services-details">*/}
+                        {/*                    <a>Cloud Computing</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*            <li>*/}
+                        {/*                <Link href="/features">*/}
+                        {/*                    <a>Features</a>*/}
+                        {/*                </Link>*/}
+                        {/*            </li>*/}
+                        {/*        </ul>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
                         <div className="col-lg-3 col-sm-12 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Newsletter</h3>
+                                <h3>Novidades</h3>
 
                                 <div className="widget-newsletter">
                                     <div className="newsletter-content">
-                                        <p>Best solution for your it startup business consectetur adipiscing elit.</p>
+                                        <p>Fique por dentro das novidades, receba informações periódicas sobre promoções, atualizações, e lançamentos. Fique tranquilo não iremos compartilhar seus dados com ninguem!</p>
                                     </div>   
 
                                     <form className="newsletter-form">
-                                        <input type="email" className="input-newsletter" placeholder="Enter email" name="EMAIL" required />
+                                        <input type="email" className="input-newsletter" placeholder="Insira seu Email" name="EMAIL" required />
                 
                                         <button type="submit">
                                             <i className="ri-send-plane-2-line"></i>
@@ -220,7 +190,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="copyright-area-content">
                             <p>
-                                Copyright © {currentYear} Ozen. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                Copyright © {currentYear} Smartiny, Template desenvolvido por <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
                             </p>
                         </div>
                     </div>
